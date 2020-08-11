@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 var (

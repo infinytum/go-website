@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 func TestEnv_Read(t *testing.T) {

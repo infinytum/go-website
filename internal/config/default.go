@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/infinytum/baerenhoehle/internal/config/loader"
-	"github.com/infinytum/baerenhoehle/internal/config/loader/memory"
-	"github.com/infinytum/baerenhoehle/internal/config/reader"
-	"github.com/infinytum/baerenhoehle/internal/config/reader/json"
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/loader"
+	"github.com/infinytum/go-website/internal/config/loader/memory"
+	"github.com/infinytum/go-website/internal/config/reader"
+	"github.com/infinytum/go-website/internal/config/reader/json"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 type config struct {

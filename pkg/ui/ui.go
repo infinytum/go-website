@@ -3,7 +3,7 @@ package ui
 import (
 	"net/http"
 
-	"github.com/infinytum/baerenhoehle/pkg/context"
+	"github.com/infinytum/go-website/pkg/context"
 )
 
 var ApplicationContext *context.Application

@@ -3,7 +3,7 @@ package env
 import (
 	"errors"
 
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 type watcher struct {

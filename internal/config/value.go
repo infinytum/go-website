@@ -3,7 +3,7 @@ package config
 import (
 	"time"
 
-	"github.com/infinytum/baerenhoehle/internal/config/reader"
+	"github.com/infinytum/go-website/internal/config/reader"
 )
 
 type value struct{}

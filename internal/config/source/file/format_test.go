@@ -3,7 +3,7 @@ package file
 import (
 	"testing"
 
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 func TestFormat(t *testing.T) {

@@ -1,12 +1,12 @@
 package website
 
 import (
-	"github.com/infinytum/baerenhoehle/internal/config"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder/yaml"
-	"github.com/infinytum/baerenhoehle/internal/config/source"
-	"github.com/infinytum/baerenhoehle/internal/config/source/file"
-	"github.com/infinytum/baerenhoehle/pkg/context"
-	"github.com/infinytum/baerenhoehle/pkg/ui"
+	"github.com/infinytum/go-website/internal/config"
+	"github.com/infinytum/go-website/internal/config/encoder/yaml"
+	"github.com/infinytum/go-website/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source/file"
+	"github.com/infinytum/go-website/pkg/context"
+	"github.com/infinytum/go-website/pkg/ui"
 	"github.com/sirupsen/logrus"
 )
 

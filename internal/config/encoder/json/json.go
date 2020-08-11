@@ -3,7 +3,7 @@ package json
 import (
 	"encoding/json"
 
-	"github.com/infinytum/baerenhoehle/internal/config/encoder"
+	"github.com/infinytum/go-website/internal/config/encoder"
 )
 
 type jsonEncoder struct{}

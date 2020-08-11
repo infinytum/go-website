@@ -1,4 +1,4 @@
-module github.com/infinytum/baerenhoehle
+module github.com/infinytum/go-website
 
 go 1.14
 

@@ -3,7 +3,7 @@ package xml
 import (
 	"encoding/xml"
 
-	"github.com/infinytum/baerenhoehle/internal/config/encoder"
+	"github.com/infinytum/go-website/internal/config/encoder"
 )
 
 type xmlEncoder struct{}

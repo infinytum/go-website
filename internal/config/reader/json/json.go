@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/imdario/mergo"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder/json"
-	"github.com/infinytum/baerenhoehle/internal/config/reader"
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/encoder"
+	"github.com/infinytum/go-website/internal/config/encoder/json"
+	"github.com/infinytum/go-website/internal/config/reader"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 type jsonReader struct {

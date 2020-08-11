@@ -3,7 +3,7 @@ package json
 import (
 	"testing"
 
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 func TestValues(t *testing.T) {

@@ -2,7 +2,7 @@ package context
 
 import (
 	"github.com/allegro/bigcache"
-	"github.com/infinytum/baerenhoehle/internal/config"
+	"github.com/infinytum/go-website/internal/config"
 	"github.com/shurcooL/graphql"
 )
 

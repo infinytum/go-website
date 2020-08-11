@@ -3,8 +3,8 @@ package source
 import (
 	"context"
 
-	"github.com/infinytum/baerenhoehle/internal/config/encoder"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder/json"
+	"github.com/infinytum/go-website/internal/config/encoder"
+	"github.com/infinytum/go-website/internal/config/encoder/json"
 )
 
 type Options struct {

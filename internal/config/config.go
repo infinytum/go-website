@@ -4,10 +4,10 @@ package config
 import (
 	"context"
 
-	"github.com/infinytum/baerenhoehle/internal/config/loader"
-	"github.com/infinytum/baerenhoehle/internal/config/reader"
-	"github.com/infinytum/baerenhoehle/internal/config/source"
-	"github.com/infinytum/baerenhoehle/internal/config/source/file"
+	"github.com/infinytum/go-website/internal/config/loader"
+	"github.com/infinytum/go-website/internal/config/reader"
+	"github.com/infinytum/go-website/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source/file"
 )
 
 // Config is an interface abstraction for dynamic configuration

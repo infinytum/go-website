@@ -3,7 +3,7 @@ package file
 import (
 	"strings"
 
-	"github.com/infinytum/baerenhoehle/internal/config/encoder"
+	"github.com/infinytum/go-website/internal/config/encoder"
 )
 
 func format(p string, e encoder.Encoder) string {

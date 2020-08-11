@@ -2,7 +2,7 @@ package yaml
 
 import (
 	"github.com/ghodss/yaml"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder"
+	"github.com/infinytum/go-website/internal/config/encoder"
 )
 
 type yamlEncoder struct{}

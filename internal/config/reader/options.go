@@ -1,11 +1,11 @@
 package reader
 
 import (
-	"github.com/infinytum/baerenhoehle/internal/config/encoder"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder/json"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder/toml"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder/xml"
-	"github.com/infinytum/baerenhoehle/internal/config/encoder/yaml"
+	"github.com/infinytum/go-website/internal/config/encoder"
+	"github.com/infinytum/go-website/internal/config/encoder/json"
+	"github.com/infinytum/go-website/internal/config/encoder/toml"
+	"github.com/infinytum/go-website/internal/config/encoder/xml"
+	"github.com/infinytum/go-website/internal/config/encoder/yaml"
 )
 
 type Options struct {

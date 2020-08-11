@@ -4,7 +4,7 @@ package reader
 import (
 	"time"
 
-	"github.com/infinytum/baerenhoehle/internal/config/source"
+	"github.com/infinytum/go-website/internal/config/source"
 )
 
 // Reader is an interface for merging changesets
