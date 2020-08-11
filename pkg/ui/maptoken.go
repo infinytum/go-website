@@ -40,10 +40,10 @@ func maptoken(w http.ResponseWriter, req *http.Request) {
 	}
 
 	token := jwt.New(jwt.SigningMethodES256)
-	token.Header["kid"] = "JJ3H77FAG3"
+	token.Header["kid"] = ApplicationContext.Config().Get("maps", "kid").String("")
 	token.Header["typ"] = "JWT"
 	token.Claims = jwt.MapClaims{
-		"iss": "YR8RBAQQAV",
+		"iss": ApplicationContext.Config().Get("maps", "iss").String(""),
 		"iat": time.Now().Unix(),
 		"exp": time.Now().Add(time.Second * 60).Unix(),
 	}
