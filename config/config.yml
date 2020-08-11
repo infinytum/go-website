@@ -1,0 +1,10 @@
+logging:
+  level: debug
+squidex:
+  clientId: asd
+  clientSecret: asd
+  url: asdasd
+graphql:
+  url:
+maps:
+  key: 
