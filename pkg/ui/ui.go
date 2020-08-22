@@ -8,9 +8,11 @@ import (
 
 var ApplicationContext *context.Application
 
-func NewPageContext(title string) *context.PageContext {
+func NewPageContext(title string, req http.Request) *context.PageContext {
+	lang := req.Header.Get("Accept-Language")
 	return &context.PageContext{
-		Title: title,
+		Title:    title,
+		Language: ApplicationContext.LanguageService().GetOrLoad(lang).Map(),
 	}
 }
 
