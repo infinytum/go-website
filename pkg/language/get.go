@@ -21,7 +21,7 @@ func (l *Language) GetOrLoad(language string) config.Config {
 		return config.NewConfig()
 	}
 
-	finalPath, _ := filepath.Abs(cwd + "/" + language + ".yaml")
+	finalPath, _ := filepath.Abs(cwd + "/static/lang/" + language + ".yaml")
 	if !strings.HasPrefix(finalPath, cwd) {
 		return config.NewConfig()
 	}
