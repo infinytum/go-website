@@ -9,6 +9,7 @@ import (
 	"github.com/infinytum/go-website/internal/config/encoder/yaml"
 	"github.com/infinytum/go-website/internal/config/source"
 	"github.com/infinytum/go-website/internal/config/source/file"
+	"github.com/sirupsen/logrus"
 )
 
 func (l *Language) GetOrLoad(language string) config.Config {
@@ -18,6 +19,7 @@ func (l *Language) GetOrLoad(language string) config.Config {
 	defaultLang := l.Config.Get("language").String("en")
 	cwd, err := os.Getwd()
 	if err != nil {
+		logrus.Error(err)
 		return config.NewConfig()
 	}
 
@@ -27,6 +29,7 @@ func (l *Language) GetOrLoad(language string) config.Config {
 	}
 
 	if _, err := os.Stat(cwd + "/static/lang/"); os.IsNotExist(err) {
+		logrus.Error(err)
 		finalPath = cwd + "/" + defaultLang + ".yaml"
 	}
 
@@ -36,6 +39,7 @@ func (l *Language) GetOrLoad(language string) config.Config {
 		file.WithPath(finalPath),
 		source.WithEncoder(enc),
 	)); err != nil {
+		logrus.Error(err)
 		return config.NewConfig()
 	}
 	return cfg
