@@ -30,7 +30,7 @@ func (l *Language) GetOrLoad(language string) config.Config {
 
 	if _, err := os.Stat(finalPath); os.IsNotExist(err) {
 		logrus.Error(err)
-		finalPath = cwd + "/" + defaultLang + ".yaml"
+		finalPath = cwd + "/static/lang/" + defaultLang + ".yaml"
 	}
 
 	cfg := config.NewConfig()
